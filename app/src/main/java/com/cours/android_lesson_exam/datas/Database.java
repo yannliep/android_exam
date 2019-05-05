@@ -1,5 +1,7 @@
 package com.cours.android_lesson_exam.datas;
 
+import android.content.Context;
+
 import androidx.room.RoomDatabase;
 
 //TODO finir la classe
@@ -10,7 +12,7 @@ public abstract class Database extends RoomDatabase {
 
     public abstract ContactDAO contactDAO();
 
-    public static Database getInstance() {
+    public static Database getInstance(Context context) {
 
     }
 

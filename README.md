@@ -12,14 +12,14 @@
 
 4. Compléter la classe de ViewModel `ContactViewModel.java` (3 points)
 
-5. Compléter la classe de base de données `Database.java` (2 points)
+5. Compléter la classe de base de données `Database.java` (1 points)
 
    * Compléter l'annotation afin de définir le schema
    * Compléter le code
    
 6. Compléter la classe `ContactAdapter.java` afin d'afficher le contenu d'une entrée dans la base (2 points)
 
-7. Compléter la classe `MainActivity.java`: (5 points)
+7. Compléter la classe `MainActivity.java`: (6 points)
    
    * Ajouter les listeners
       * Sur le bouton d'ajout
