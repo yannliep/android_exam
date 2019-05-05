@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Android_lesson_exam</string>
+    <string name="phone">Téléphone</string>
+    <string name="mail">eMail</string>
+    <string name="name">Nom</string>
+    <string name="first_name">Prénom</string>
+</resources>
