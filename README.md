@@ -7,20 +7,20 @@
 1. Ajouter les contraintes dans les fichiers de layout (1 point)
 
     Il faut respecter le design suivant pour la vue principale `activity_main.xml`:
-        Liste sur toute la fenêtre
-        Bouton en bas à droite
+        * Liste sur toute la fenêtre
+        * Bouton en bas à droite
 
     Il faut respecter le design suivant pour la vue d'édition `activity_edit.xml` (les champs doivent faire toute la longueur):
-        Champ Nom
-        Champ Prénom
-        Champ eMail
-        Champ Téléphone
+        * Champ Nom
+        * Champ Prénom
+        * Champ eMail
+        * Champ Téléphone
         
     Il faut respecter le design suivant pour l'adapter `contact_adapter_layout.xml` (les champs doivent faire toute la longueur):
-        Champ Nom
-        Champ Prénom
-        Champ eMail
-        Champ Téléphone
+        * Champ Nom
+        * Champ Prénom
+        * Champ eMail
+        * Champ Téléphone
 
 2. Ajouter les getters/setters dans la classe de l'entité `Contact.java` (1 point)
 
