@@ -10,4 +10,8 @@ public abstract class Database extends RoomDatabase {
 
     public abstract ContactDAO contactDAO();
 
+    public static Database getInstance() {
+
+    }
+
 }
