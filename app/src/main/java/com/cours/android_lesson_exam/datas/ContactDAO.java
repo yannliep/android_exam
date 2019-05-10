@@ -4,18 +4,27 @@ import java.util.List;
 
 import androidx.lifecycle.LiveData;
 import androidx.room.Dao;
+import androidx.room.Delete;
+import androidx.room.Insert;
+import androidx.room.Query;
+import androidx.room.Update;
 
 @Dao
 public interface ContactDAO {
     //TODO ajouter les requêtes
 
+    @Query("Select * from Contact")
     LiveData<List<Contact>> getAll();
 
+    @Query("Select * from Contact where id=:id")
     LiveData<Contact> getById(int id);
 
+    @Insert
     void insert(Contact contact);
 
+    @Update
     void update(Contact contact);
 
+    @Delete
     void delete(Contact contact);
 }
