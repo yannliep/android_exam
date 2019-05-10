@@ -4,4 +4,9 @@
     <string name="mail">eMail</string>
     <string name="name">Nom</string>
     <string name="first_name">Prénom</string>
+
+    <string name="delete_title">Suppression</string>
+    <string name="delete_message">Voulez-vous réellement supprimer le contact ?</string>
+    <string name="yes">Oui</string>
+    <string name="no">Non</string>
 </resources>
