@@ -94,17 +94,9 @@ public class EditActivity extends AppCompatActivity {
         StringBuilder sb = new StringBuilder();
         if (contact.getFirst_name() == null || "".equals(contact.getFirst_name())) {
             sb.append(" - votre Nom de famille n'est pas écrit\n");
-            new AlertDialog.Builder(EditActivity.this)
-                    .setTitle("Donnée non valide")
-                    .setMessage("")
-                    .setNeutralButton("ok", null).show();
         }
         if (contact.getLast_name() == null || "".equals(contact.getLast_name())) {
             sb.append(" - votre Prénom n'est pas écrit\n");
-            new AlertDialog.Builder(EditActivity.this)
-                    .setTitle("Donnée non valide")
-                    .setMessage("votre Prénom n'est pas écrit")
-                    .setNeutralButton("ok", null).show();
         }
         if (!isMailValid(contact.getMail())) {
             sb.append(" - votre mail n'est pas juste\n");
